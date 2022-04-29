@@ -1,8 +1,5 @@
 {
   "name": "destruct-app",
-  "scripts": {
-    "dev": "nodemon"
-  },
   "version": "1.0.0",
   "description": "Understanding the art of JavaScript destructuring",
   "main": "arrays.js",
@@ -16,8 +13,5 @@
   "license": "ISC",
   "repository": {
     "url": "https://github.com/ZakiMohammed/javascript-destructuring.git"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
