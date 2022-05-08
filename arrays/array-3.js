@@ -1,5 +1,7 @@
 // default value
 
-const [city, state, country = 'US'] = ['Pittsburgh', 'Pennsylvania']
+const address = ['Pittsburgh', 'Pennsylvania']
+
+const [city, state, country = 'US'] = address
 
 console.log(city, state, country)   // Pittsburgh Pennsylvania US
