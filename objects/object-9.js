@@ -1,10 +1,12 @@
 // to function
 
-const setProduct = ({ id, name, price, color }) => console.log('Stored:', id, name, price, color)
+const setProduct = ({ name, price, color }) => console.log('Stored:', name, price, color)
 
-setProduct({
+const product = {
     id: 1,
     name: 'Woodland Shoes',
     price: 3000,
     color: 'Brown'
-})
+}
+
+setProduct(product)
