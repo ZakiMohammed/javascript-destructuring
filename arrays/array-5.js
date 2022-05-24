@@ -1,7 +1,9 @@
-// from function
+// swap
 
-const getLocation = () => [18.97474, 72.82712]
+let a = 10, b = 20;
 
-const [lat, lng] = getLocation()
+console.log(a, b);  // 10 20
 
-console.log(lat, lng)   // 18.97474 72.82712
+[a, b] = [b, a]
+
+console.log(a, b)   // 20 10

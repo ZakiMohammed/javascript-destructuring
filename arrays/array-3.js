@@ -1,7 +1,7 @@
-// default value
+// indexed position
 
-const address = ['Pittsburgh', 'Pennsylvania']
+const developer = ['Rajneesh', 'Mithilesh', 'Chaubey']
 
-const [city, state, country = 'US'] = address
+const { [1]: middleName } = developer
 
-console.log(city, state, country)   // Pittsburgh Pennsylvania US
+console.log(middleName)    // Mithilesh

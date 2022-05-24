@@ -1,7 +1,7 @@
-// to function
+// from function
 
-const setLocation = ([lat, lng]) => console.log('Stored:', lat, lng)
+const getLocation = () => [18.97474, 72.82712]
 
-const location = [18.97474, 72.82712]
+const [lat, lng] = getLocation()
 
-setLocation(location)   // Stored: 18.97474 72.82712
+console.log(lat, lng)   // 18.97474 72.82712

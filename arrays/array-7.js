@@ -1,7 +1,7 @@
-// rest with de-structuring
+// to function
 
-const languages = ['JavaScript', 'Node.js', 'C#', 'Java', 'C']
+const setLocation = ([lat, lng]) => console.log('Stored:', lat, lng)
 
-const [lang1, lang2, ...others] = languages
+const location = [18.97474, 72.82712]
 
-console.log(lang1, lang2, others)
+setLocation(location)   // Stored: 18.97474 72.82712

@@ -1,9 +1,7 @@
-// swap
+// default value
 
-let a = 10, b = 20;
+const address = ['Pittsburgh', 'Pennsylvania']
 
-console.log(a, b);  // 10 20
+const [city, state, country = 'US'] = address
 
-[a, b] = [b, a]
-
-console.log(a, b)   // 20 10
+console.log(city, state, country)   // Pittsburgh Pennsylvania US
